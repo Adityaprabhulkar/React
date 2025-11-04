@@ -1,0 +1,26 @@
+.user-container {
+  background-color: rgb(233, 226, 217);
+  padding: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 250px;               /* fixed width for equal size cards */
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.user-container:hover {
+  transform: scale(1.05);     /* smooth hover zoom */
+}
+
+#user-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}

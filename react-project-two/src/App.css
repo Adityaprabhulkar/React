@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;            /* line ke bahar jane par next line me aayenge */
+  justify-content: center;    /* center me align */
+  align-items: flex-start;    /* top alignment */
+  gap: 2rem;                  /* cards ke beech spacing */
+  background-color: #2f2f3d;  /* dark background */
+  padding: 2rem;
+  min-height: 100vh;          /* full screen height */
+}
